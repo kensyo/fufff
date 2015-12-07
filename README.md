@@ -1,7 +1,16 @@
 # fufff
-automatic update on flashplayer for firefox on Linux
+An update script on flashplayer for firefox on Linux
 
-This script will download flashplayer for firefox on Linux and will install.  
-Concretely speaking, it place downloaded `libflashplayer.so` on `$HOME/.mozilla/plugins`.
+## Overview
+This script will download flashplayer for firefox on Linux and will install it.  
+Concretely speaking, it places downloaded `libflashplayer.so` on `$HOME/.mozilla/plugins`.
 
-It also replace a current version of `libflashplayer.so` with the latest one.
+Note that it replaces a current version of `libflashplayer.so` with the latest one.
+
+I have tested this script on Arch Linux.
+
+Use this script **at your own risk**.
+
+## Usage
+This is a python3 script.  
+It may also be a good choice to use it with cron.
