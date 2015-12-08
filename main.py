@@ -57,7 +57,7 @@ if os.path.exists(HOME_DIR + "/.mozilla/plugins"):
             install_fp(HOME_DIR, latest_version)
 
     else:
-        " do nothing because of parse error"
+        " do nothing because of parsing error"
 
 parser.close()
 htmldata.close()
