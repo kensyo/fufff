@@ -58,6 +58,6 @@ if os.path.exists(HOME_DIR + "/.mozilla/plugins"):
 
     else:
         " do nothing because of parsing error"
+    parser.close()
+    htmldata.close()
 
-parser.close()
-htmldata.close()
